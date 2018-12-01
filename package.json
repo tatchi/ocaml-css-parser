@@ -10,11 +10,14 @@
     "@opam/dune": "*",
     "@opam/alcotest": "^0.8.4",
     "@opam/menhir": "20181113",
-    "@opam/sedlex": "1.99.4",
-    "ocaml": "~4.6.0"
+    "@opam/sedlex": "git+https://github.com/ocaml-community/sedlex.git",
+    "@opam/gen": "*",
+    "@opam/ocaml-migrate-parsetree": "^1.1.0",
+    "@opam/ppx_tools_versioned": "*",
+    "ocaml": "~4.2.3"
   },
   "devDependencies": {
     "@opam/merlin": "^3.2.2",
-    "ocaml": "~4.6.0"
+    "ocaml": "~4.2.3"
   }
 }
