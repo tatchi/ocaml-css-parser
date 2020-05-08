@@ -16,7 +16,7 @@
     "@opam/alcotest": "^1.0.1",
     "@opam/menhir": "20200211",
     "@opam/sedlex": "^2.0.0",
-    "ocaml": ">=4.06.1"
+    "ocaml": ">=4.06.1 <4.10.0"
   },
   "devDependencies": {
     "@opam/merlin": "3.3.3"
