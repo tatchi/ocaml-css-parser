@@ -2,8 +2,6 @@
 (using menhir 2.0)
 (name css-parser)
 
-(generate_opam_files true)
-
 (source (github astrada/ocaml-css-parser))
 (license MIT)
 (authors "Alessandro Strada")
@@ -15,7 +13,7 @@
  (description "Parses a CSS Level 3 string and produces an AST.")
  (depends
   (alcotest :with-test)
-  (dune (>= 2.4))
+  (dune (>= 1.11))
   (menhir (>= 20200211))
   (sedlex (>= 2.0))))
 
