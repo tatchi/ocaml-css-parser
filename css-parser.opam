@@ -8,6 +8,7 @@ license: "MIT"
 homepage: "https://github.com/astrada/ocaml-css-parser"
 bug-reports: "https://github.com/astrada/ocaml-css-parser/issues"
 depends: [
+  "ocaml" {>= "4.06.1"}
   "alcotest" {with-test}
   "dune" {>= "1.6"}
   "menhir" {>= "20200211"}
